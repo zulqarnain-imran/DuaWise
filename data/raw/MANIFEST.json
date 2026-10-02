@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-10-02T19:53:55.723883+00:00",
+  "sources": {
+    "quran": {
+      "base": "https://api.quran.com/api/v4/verses/by_key/{key}",
+      "translation_id": 20,
+      "verse_count": 94
+    },
+    "hisnul": {
+      "base": "https://dua-api.hisnul.workers.dev",
+      "dua_count": 421
+    }
+  },
+  "sha256": {
+    "quran_duas_source.json": "0d7d87ad7e3afd6179d088abf15d9506cad53ecd0a0ccdad4558c10ab0274de1",
+    "hisnul_source.json": "f1d78158bfbbc1c02246ef1a43920318f0f015a691de086d1fa540e536147b89"
+  },
+  "licensing": {
+    "quran": "Quran text and Saheeh International translation retrieved via Quran.com API v4. Redistribution terms must be checked with Quran Foundation before release (docs/SPEC.md 7.1).",
+    "hisnul": "dua-api.hisnul.workers.dev, MIT licensed code; religious text asserted public domain by upstream, NOT independently verified (docs/SPEC.md 7.1)."
+  },
+  "review_status": "UNVERIFIED. Arabic text must be checked against printed sources and translations reviewed by a qualified scholar before any public release."
+}

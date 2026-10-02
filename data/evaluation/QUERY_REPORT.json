@@ -1,0 +1,12 @@
+{
+  "query_count": 180,
+  "base_queries": 60,
+  "paraphrases": 120,
+  "lexical_mismatch": 162,
+  "ambiguous": 9,
+  "with_occasion": 60,
+  "mean_gold_per_query": 29.78,
+  "min_gold": 1,
+  "max_gold": 100,
+  "queries_with_no_grade3": 0
+}

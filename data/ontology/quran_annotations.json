@@ -1,0 +1,2018 @@
+{
+  "version": "1.0",
+  "annotation_method": "manual",
+  "annotator": "project-team-draft",
+  "status": "DRAFT_UNREVIEWED",
+  "warning": "The Arabic text and English translation for these records are authentic and machine-fetched from the Quran.com API. The context labels below are the project team's draft annotation and MUST be reviewed by a qualified annotator. See docs/ANNOTATION.md.",
+  "convention": "A Quranic verse is only labelled with a situation when the verse's own context or the established reason for its recitation supports it. Where no reason is stated in the source, occasion is 'general' and the record is flagged.",
+  "verses": {
+    "1:6": {
+      "title": "Asking for the straight path",
+      "situations": [
+        "guidance",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance"
+      ]
+    },
+    "2:114": {
+      "title": "Seeking patience and persistence",
+      "situations": [
+        "sin",
+        "stress"
+      ],
+      "emotions": [
+        "patience",
+        "regret"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "repentance"
+      ]
+    },
+    "2:127": {
+      "title": "Asking for a righteous offspring and knowledge",
+      "situations": [
+        "family",
+        "pregnancy",
+        "study"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "blessing",
+        "knowledge"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "family",
+        "knowledge"
+      ]
+    },
+    "2:152": {
+      "title": "Asking Allah for help",
+      "situations": [
+        "hardship",
+        "stress"
+      ],
+      "emotions": [
+        "anxiety",
+        "patience"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "2:153": {
+      "title": "Asking Allah for help and victory",
+      "situations": [
+        "conflict",
+        "hardship"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "2:155": {
+      "title": "Allah does not burden a soul beyond its capacity",
+      "situations": [
+        "financial_difficulty",
+        "hardship",
+        "illness"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health",
+        "patience"
+      ]
+    },
+    "2:156": {
+      "title": "Every soul will taste death",
+      "situations": [
+        "death_of_loved_one"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "death"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "2:172": {
+      "title": "Asking for a response to the word",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "obedience",
+        "repentance"
+      ]
+    },
+    "2:186": {
+      "title": "Calling upon Allah, and He answers",
+      "situations": [
+        "hardship",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "prayer"
+      ]
+    },
+    "2:187": {
+      "title": "Seeking nearness to Allah through fasting",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "humility"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "ramadan"
+      ],
+      "topics": [
+        "worship"
+      ]
+    },
+    "2:201": {
+      "title": "Asking for goodness in this world and the next",
+      "situations": [
+        "death_of_loved_one",
+        "grief",
+        "hardship"
+      ],
+      "emotions": [
+        "hope",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "provision"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "provision"
+      ]
+    },
+    "2:214": {
+      "title": "Affliction and patience",
+      "situations": [
+        "death_of_loved_one",
+        "hardship",
+        "illness"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "2:222": {
+      "title": "Repenting for what was done",
+      "situations": [
+        "marriage",
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "humility",
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "2:250": {
+      "title": "Asking for ease of the chest and removal of worry",
+      "situations": [
+        "anxiety",
+        "grief",
+        "sadness"
+      ],
+      "emotions": [
+        "anxiety",
+        "sadness"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "2:255": {
+      "title": "Ayat al-Kursi: Allah's oneness and guardianship",
+      "situations": [
+        "fear",
+        "loneliness",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear",
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "before_sleep",
+        "evening",
+        "general",
+        "morning"
+      ],
+      "topics": [
+        "praise_of_allah",
+        "protection"
+      ]
+    },
+    "2:268": {
+      "title": "Satan promises poverty; Allah promises provision",
+      "situations": [
+        "anxiety",
+        "debt",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "anxiety",
+        "fear"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection",
+        "provision"
+      ]
+    },
+    "2:286": {
+      "title": "No soul is charged beyond its capacity",
+      "situations": [
+        "debt",
+        "financial_difficulty",
+        "hardship",
+        "stress"
+      ],
+      "emotions": [
+        "anxiety",
+        "patience"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "debt",
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "provision"
+      ]
+    },
+    "3:8": {
+      "title": "Asking that hearts not be turned astray",
+      "situations": [
+        "anxiety",
+        "illness",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "anxiety",
+        "humility"
+      ],
+      "intentions": [
+        "guidance",
+        "healing"
+      ],
+      "occasions": [
+        "general",
+        "illness"
+      ],
+      "topics": [
+        "guidance",
+        "health"
+      ]
+    },
+    "3:16": {
+      "title": "Asking forgiveness for sin",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "regret",
+        "shame"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "3:139": {
+      "title": "Do not lose heart, do not grieve",
+      "situations": [
+        "anxiety",
+        "conflict",
+        "hardship"
+      ],
+      "emotions": [
+        "anxiety",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "3:144": {
+      "title": "Strengthening and granting victory",
+      "situations": [
+        "conflict",
+        "hardship",
+        "work"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "3:146": {
+      "title": "Asking for healing and patience",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "patience"
+      ],
+      "intentions": [
+        "healing",
+        "patience"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health",
+        "patience"
+      ]
+    },
+    "3:147": {
+      "title": "Asking Allah to cure and grant ease",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "hope",
+        "sadness"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health"
+      ]
+    },
+    "3:155": {
+      "title": "Affliction and two-fold reward",
+      "situations": [
+        "death_of_loved_one",
+        "grief",
+        "hardship"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "3:159": {
+      "title": "Due to an injury the Prophet was told not to grieve",
+      "situations": [
+        "grief",
+        "illness",
+        "sadness"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "3:169": {
+      "title": "Martyrs are not dead",
+      "situations": [
+        "death_of_loved_one",
+        "grief"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "death"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "3:173": {
+      "title": "Allah is sufficient for us, and He is the best disposer",
+      "situations": [
+        "anxiety",
+        "conflict",
+        "fear",
+        "hardship"
+      ],
+      "emotions": [
+        "fear",
+        "hope"
+      ],
+      "intentions": [
+        "ease",
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "3:185": {
+      "title": "Every soul will taste death, then to us you will return",
+      "situations": [
+        "death_of_loved_one"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "death"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "3:188": {
+      "title": "Seeking pardon for procrastination and sin",
+      "situations": [
+        "repentance",
+        "sin",
+        "stress"
+      ],
+      "emotions": [
+        "regret",
+        "shame"
+      ],
+      "intentions": [],
+      "occations": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ],
+      "occasions": []
+    },
+    "6:17": {
+      "title": "The trial and the patience it requires",
+      "situations": [
+        "conflict",
+        "hardship",
+        "illness"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "6:80": {
+      "title": "Rejecting those who reject guidance",
+      "situations": [
+        "guidance",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "humility"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance"
+      ]
+    },
+    "7:23": {
+      "title": "Asking relief from an unjust people",
+      "situations": [
+        "conflict",
+        "hardship",
+        "injustice"
+      ],
+      "emotions": [
+        "anger",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "ward_off_harm"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "protection"
+      ]
+    },
+    "8:10": {
+      "title": "Allah sends consolation to the distressed",
+      "situations": [
+        "anxiety",
+        "grief",
+        "hardship"
+      ],
+      "emotions": [
+        "hope",
+        "sadness"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "9:21": {
+      "title": "Do not grieve; Allah is with us",
+      "situations": [
+        "conflict",
+        "death_of_loved_one",
+        "grief"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "death"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "9:51": {
+      "title": "Allah will protect them from harm",
+      "situations": [
+        "conflict",
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "10:57": {
+      "title": "Our Lord we are unjust to ourselves unless You forgive us",
+      "situations": [
+        "grief",
+        "hardship",
+        "sin"
+      ],
+      "emotions": [
+        "humility",
+        "sadness"
+      ],
+      "intentions": [
+        "forgiveness",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "repentance"
+      ]
+    },
+    "12:53": {
+      "title": "Asking relief from distress",
+      "situations": [
+        "anxiety",
+        "fear",
+        "hardship"
+      ],
+      "emotions": [
+        "anxiety",
+        "fear"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "12:87": {
+      "title": "Seeking forgiveness after being wronged",
+      "situations": [
+        "hardship",
+        "injustice",
+        "sin"
+      ],
+      "emotions": [
+        "regret",
+        "sadness"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "12:88": {
+      "title": "Asking for wealth and good fortune",
+      "situations": [
+        "debt",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "provision",
+        "sustenance"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "14:7": {
+      "title": "Asking protection and patience",
+      "situations": [
+        "hardship",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "patience",
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "protection"
+      ]
+    },
+    "16:18": {
+      "title": "Do not be arrogant",
+      "situations": [
+        "anger",
+        "sin"
+      ],
+      "emotions": [
+        "anger",
+        "shame"
+      ],
+      "intentions": [],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "16:127": {
+      "title": "Patience is only from Allah",
+      "situations": [
+        "hardship",
+        "illness"
+      ],
+      "emotions": [
+        "patience"
+      ],
+      "intentions": [
+        "healing",
+        "patience"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health",
+        "patience"
+      ]
+    },
+    "17:33": {
+      "title": "The dua of the infant and the traveller",
+      "situations": [
+        "family",
+        "pregnancy",
+        "travel"
+      ],
+      "emotions": [
+        "fear",
+        "humility"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "travel"
+      ],
+      "topics": [
+        "family",
+        "protection"
+      ]
+    },
+    "18:10": {
+      "title": "Asking for increase in knowledge",
+      "situations": [
+        "guidance",
+        "study"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "guidance",
+        "knowledge"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance",
+        "knowledge"
+      ]
+    },
+    "18:24": {
+      "title": "A trial greater than the first",
+      "situations": [
+        "hardship",
+        "illness"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "20:114": {
+      "title": "My Lord, increase me in knowledge",
+      "situations": [
+        "guidance",
+        "study"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "knowledge"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "knowledge"
+      ]
+    },
+    "20:115": {
+      "title": "Seeking pardon for past error",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "20:116": {
+      "title": "My soul accuses me; have mercy",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "regret",
+        "shame"
+      ],
+      "intentions": [
+        "mercy"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "20:119": {
+      "title": "Do not fear; My reward is close",
+      "situations": [
+        "anxiety",
+        "study"
+      ],
+      "emotions": [
+        "fear",
+        "hope"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "exam",
+        "general"
+      ],
+      "topics": [
+        "knowledge",
+        "patience"
+      ]
+    },
+    "20:121": {
+      "title": "I did wrong myself; forgive me",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "regret",
+        "shame"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "21:83": {
+      "title": "The dua of Job",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "desperation",
+        "sadness"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health"
+      ]
+    },
+    "21:87": {
+      "title": "The dua of Jonah: no God but You",
+      "situations": [
+        "anxiety",
+        "hardship",
+        "loneliness"
+      ],
+      "emotions": [
+        "desperation",
+        "sadness"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "praise_of_allah"
+      ]
+    },
+    "23:118": {
+      "title": "My Lord, forgive me, my parents and whoever enters my house a believer",
+      "situations": [
+        "family",
+        "new_home",
+        "repentance"
+      ],
+      "emotions": [
+        "humility",
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general",
+        "new_home"
+      ],
+      "topics": [
+        "family",
+        "repentance"
+      ]
+    },
+    "24:35": {
+      "title": "Allah is the Light of the heavens and the earth",
+      "situations": [
+        "guidance",
+        "study"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "guidance",
+        "knowledge"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance",
+        "knowledge"
+      ]
+    },
+    "25:63": {
+      "title": "The servants who are patient",
+      "situations": [
+        "hardship",
+        "illness",
+        "stress"
+      ],
+      "emotions": [
+        "patience"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "25:65": {
+      "title": "The dwellers of the united garden",
+      "situations": [
+        "grief",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "25:70": {
+      "title": "Our Lord, forgive us our sins and remove our excess",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "humility",
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "25:74": {
+      "title": "Those who are brought near their Lord",
+      "situations": [
+        "family",
+        "marriage"
+      ],
+      "emotions": [
+        "hope",
+        "joy"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "wedding"
+      ],
+      "topics": [
+        "family"
+      ]
+    },
+    "26:84": {
+      "title": "My Lord, he is weak and poor",
+      "situations": [
+        "financial_difficulty",
+        "hardship"
+      ],
+      "emotions": [
+        "desperation",
+        "humility"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "27:40": {
+      "title": "My Lord, I sent what You sent me with",
+      "situations": [
+        "debt",
+        "financial_difficulty",
+        "hardship"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "blessing",
+        "provision"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "28:24": {
+      "title": "My Lord, You sent me nothing good",
+      "situations": [
+        "debt",
+        "financial_difficulty",
+        "unemployment"
+      ],
+      "emotions": [
+        "hope",
+        "sadness"
+      ],
+      "intentions": [
+        "provision",
+        "sustenance"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "29:60": {
+      "title": "Our Lord, do not hold us accountable",
+      "situations": [
+        "debt",
+        "financial_difficulty",
+        "hardship",
+        "study"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "ease",
+        "provision"
+      ],
+      "occasions": [
+        "debt",
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "provision"
+      ]
+    },
+    "29:69": {
+      "title": "And those who strive for Us, We will make them a path",
+      "situations": [
+        "conflict",
+        "hardship",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "hope",
+        "patience"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance",
+        "patience"
+      ]
+    },
+    "31:12": {
+      "title": "And We will increase him in guidance and reward",
+      "situations": [
+        "guidance",
+        "study"
+      ],
+      "emotions": [
+        "gratitude",
+        "hope"
+      ],
+      "intentions": [
+        "guidance",
+        "knowledge"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance",
+        "knowledge"
+      ]
+    },
+    "34:26": {
+      "title": "He made for you from the earth and its people mates",
+      "situations": [
+        "family",
+        "financial_difficulty",
+        "marriage"
+      ],
+      "emotions": [
+        "gratitude"
+      ],
+      "intentions": [
+        "blessing",
+        "provision"
+      ],
+      "occasions": [
+        "wedding"
+      ],
+      "topics": [
+        "family",
+        "provision"
+      ]
+    },
+    "35:41": {
+      "title": "Allah commands justice and the doing of good",
+      "situations": [
+        "hardship",
+        "injustice"
+      ],
+      "emotions": [
+        "anger",
+        "sadness"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance"
+      ]
+    },
+    "38:24": {
+      "title": "The dua of the one repenting",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "humility",
+        "regret"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "39:9": {
+      "title": "To those who believe and do good deeds",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance",
+        "repentance"
+      ]
+    },
+    "39:22": {
+      "title": "Does the One who created not know?",
+      "situations": [
+        "anger",
+        "conflict",
+        "sin"
+      ],
+      "emotions": [
+        "anger",
+        "shame"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance"
+      ]
+    },
+    "39:53": {
+      "title": "Do not despair of the mercy of Allah",
+      "situations": [
+        "anxiety",
+        "grief",
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "hope",
+        "regret",
+        "sadness"
+      ],
+      "intentions": [
+        "mercy"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "40:7": {
+      "title": "Those who seek Our help",
+      "situations": [
+        "anxiety",
+        "financial_difficulty",
+        "hardship"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "40:15": {
+      "title": "So glorify the Name of your Lord, the Most Great",
+      "situations": [
+        "hardship"
+      ],
+      "emotions": [
+        "gratitude",
+        "patience"
+      ],
+      "intentions": [
+        "gratitude",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience",
+        "praise_of_allah"
+      ]
+    },
+    "40:60": {
+      "title": "Allah is with those who are patient",
+      "situations": [
+        "hardship",
+        "illness"
+      ],
+      "emotions": [
+        "patience"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occations": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ],
+      "occasions": []
+    },
+    "41:10": {
+      "title": "You alone we worship and You alone we ask for help",
+      "situations": [
+        "anxiety",
+        "fear",
+        "hardship"
+      ],
+      "emotions": [
+        "fear",
+        "humility"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "praise_of_allah"
+      ]
+    },
+    "41:38": {
+      "title": "The dua of one in illness",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health"
+      ]
+    },
+    "41:44": {
+      "title": "We do not send down except good and mercy",
+      "situations": [
+        "grief",
+        "illness"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "healing"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health",
+        "patience"
+      ]
+    },
+    "45:37": {
+      "title": "Patient and firm in the matter",
+      "situations": [
+        "anxiety",
+        "hardship",
+        "stress"
+      ],
+      "emotions": [
+        "anxiety",
+        "patience"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "51:10": {
+      "title": "My Lord, increase me in what You have given me",
+      "situations": [
+        "family",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "gratitude",
+        "hope"
+      ],
+      "intentions": [
+        "blessing",
+        "provision"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "family",
+        "provision"
+      ]
+    },
+    "51:22": {
+      "title": "In the sky of the night is your sustenance",
+      "situations": [
+        "anxiety",
+        "financial_difficulty",
+        "general"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "occasions": [
+        "night"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "51:58": {
+      "title": "My Lord is the Forgiving, the Merciful",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "forgiveness",
+        "mercy"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "52:48": {
+      "title": "Their Lord is with them, He hears them",
+      "situations": [
+        "anxiety",
+        "fear",
+        "loneliness"
+      ],
+      "emotions": [
+        "hope",
+        "loneliness"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "55:13": {
+      "title": "Which of the favours of your Lord will you deny?",
+      "situations": [
+        "gratitude",
+        "hardship"
+      ],
+      "emotions": [
+        "gratitude",
+        "joy"
+      ],
+      "intentions": [
+        "gratitude"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "gratitude"
+      ]
+    },
+    "59:8": {
+      "title": "Allah will relieve the distressed and give provision",
+      "situations": [
+        "debt",
+        "financial_difficulty",
+        "hardship"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "ease",
+        "provision"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "62:10": {
+      "title": "Allah and His angels send blessings on the Prophet",
+      "situations": [
+        "hardship",
+        "illness",
+        "study"
+      ],
+      "emotions": [
+        "hope",
+        "patience"
+      ],
+      "intentions": [
+        "blessing",
+        "patience"
+      ],
+      "occasions": [
+        "friday"
+      ],
+      "topics": [
+        "patience",
+        "praise_of_allah"
+      ]
+    },
+    "65:2": {
+      "title": "Whoever fears Allah, He will make a way out",
+      "situations": [
+        "anxiety",
+        "debt",
+        "fear",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "fear",
+        "hope"
+      ],
+      "intentions": [
+        "ease",
+        "provision"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "65:3": {
+      "title": "A provision from where he does not expect",
+      "situations": [
+        "debt",
+        "financial_difficulty",
+        "unemployment"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "provision",
+        "sustenance"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "66:8": {
+      "title": "Turn to Allah in sincere repentance",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "humility",
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "71:10": {
+      "title": "My Lord, forgive me and my parents",
+      "situations": [
+        "family",
+        "repentance"
+      ],
+      "emotions": [
+        "humility",
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "family",
+        "repentance"
+      ]
+    },
+    "71:11": {
+      "title": "My Lord, build me a house in Paradise",
+      "situations": [
+        "grief",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "grief",
+        "hope"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "71:12": {
+      "title": "My Lord, forgive me and my parents and whoever enters my house a believer",
+      "situations": [
+        "family",
+        "new_home",
+        "repentance"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "forgiveness",
+        "mercy"
+      ],
+      "occasions": [
+        "general",
+        "new_home"
+      ],
+      "topics": [
+        "family",
+        "repentance"
+      ]
+    },
+    "93:3": {
+      "title": "My Lord will complete what He has begun for you",
+      "situations": [
+        "anxiety",
+        "study",
+        "uncertainty_about_future",
+        "work"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "93:5": {
+      "title": "Your Lord will forgive and have mercy",
+      "situations": [
+        "anxiety",
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "hope",
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness",
+        "mercy"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "93:6": {
+      "title": "He will give you, so you will be satisfied",
+      "situations": [
+        "anxiety",
+        "financial_difficulty",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "ease",
+        "provision"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "94:5": {
+      "title": "With hardship comes ease",
+      "situations": [
+        "hardship",
+        "stress"
+      ],
+      "emotions": [
+        "hope",
+        "patience"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "94:6": {
+      "title": "Indeed, with hardship comes ease",
+      "situations": [
+        "grief",
+        "hardship",
+        "stress"
+      ],
+      "emotions": [
+        "hope",
+        "patience"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    }
+  }
+}

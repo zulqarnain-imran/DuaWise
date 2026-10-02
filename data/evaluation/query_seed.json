@@ -1,0 +1,997 @@
+{
+  "version": "1.0",
+  "author": "project-team",
+  "status": "DRAFT - graded relevance derived from draft annotations, NOT independently expert-labelled",
+  "validity_note": "Gold labels are derived from the same context annotations the ranker consumes. This creates a circularity risk that inflates M4. Two mitigations are applied: (a) query wording deliberately avoids ontology vocabulary so lexical retrieval cannot shortcut the task, (b) the independent check is expert evaluation (docs/SPEC.md section 17). This limitation must be stated in the paper.",
+  "convention": {
+    "lexical_mismatch": "true when the query shares almost no content words with the gold duas' titles or translations. These queries are the primary evidence for the project's premise.",
+    "ambiguous": "true when several defensible dua sets exist. Excluded from headline metrics and reported separately as the ambiguity ceiling."
+  },
+  "queries": [
+    {
+      "qid": "Q001",
+      "text": "I'm worried about how I'm going to pay rent this month",
+      "situations": [
+        "financial_difficulty",
+        "debt"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "sustenance",
+        "provision"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q002",
+      "text": "my manager keeps piling work on me and I can't keep up",
+      "situations": [
+        "work",
+        "stress"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q003",
+      "text": "my mum is in hospital and the doctors don't know what's wrong",
+      "situations": [
+        "illness",
+        "family"
+      ],
+      "emotions": [
+        "fear",
+        "sadness"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q004",
+      "text": "I fly out to Dubai in six hours and I'm nervous about the trip",
+      "situations": [
+        "travel",
+        "anxiety"
+      ],
+      "emotions": [
+        "anxiety",
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q005",
+      "text": "I keep doing things I know are wrong and I hate myself for it",
+      "situations": [
+        "sin",
+        "repentance"
+      ],
+      "emotions": [
+        "regret",
+        "shame"
+      ],
+      "intentions": [
+        "repentance",
+        "forgiveness"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q006",
+      "text": "everyone at the wedding is happy except me and I feel completely alone",
+      "situations": [
+        "loneliness",
+        "marriage"
+      ],
+      "emotions": [
+        "loneliness",
+        "sadness"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q007",
+      "text": "my father passed away last week and I still can't accept it",
+      "situations": [
+        "death_of_lived_one",
+        "grief"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "patience",
+        "mercy"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q008",
+      "text": "I have an exam in three days and I haven't revised anything",
+      "situations": [
+        "study",
+        "anxiety"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "ease",
+        "knowledge"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "exam"
+    },
+    {
+      "qid": "Q009",
+      "text": "I was let go from my job two weeks ago and nothing has come up since",
+      "situations": [
+        "unemployment",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "sadness",
+        "anxiety"
+      ],
+      "intentions": [
+        "provision",
+        "sustenance"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q010",
+      "text": "I argued with my wife and I've been furious all day but I know I was wrong",
+      "situations": [
+        "anger",
+        "marriage",
+        "family_conflict"
+      ],
+      "emotions": [
+        "anger"
+      ],
+      "intentions": [
+        "patience",
+        "ease"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q011",
+      "text": "I can't sleep at night, my mind just won't stop",
+      "situations": [
+        "anxiety",
+        "loneliness"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "ease",
+        "protection"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "before_sleep"
+    },
+    {
+      "qid": "Q012",
+      "text": "my landlord is threatening to throw me out",
+      "situations": [
+        "injustice",
+        "financial_difficulty",
+        "conflict"
+      ],
+      "emotions": [
+        "fear",
+        "anger"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q013",
+      "text": "I just want to know which way my life is going to go",
+      "situations": [
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q014",
+      "text": "everything has been going wrong at once and I'm at the end of my rope",
+      "situations": [
+        "hardship",
+        "stress"
+      ],
+      "emotions": [
+        "desperation",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q015",
+      "text": "I'm getting married next month and I'm really scared I'll mess it up",
+      "situations": [
+        "marriage"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "wedding"
+    },
+    {
+      "qid": "Q016",
+      "text": "we've just moved into a new house and I want it blessed",
+      "situations": [
+        "new_home",
+        "family"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "blessing",
+        "protection"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "new_home"
+    },
+    {
+      "qid": "Q017",
+      "text": "my little girl has been crying every night and I don't know why",
+      "situations": [
+        "illness",
+        "family"
+      ],
+      "emotions": [
+        "sadness",
+        "fear"
+      ],
+      "intentions": [
+        "healing",
+        "protection"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q018",
+      "text": "I've been given a big deadline at work and I don't think I can deliver",
+      "situations": [
+        "work",
+        "stress"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q019",
+      "text": "I owe a lot of people money and I'm scared of what they'll do",
+      "situations": [
+        "debt",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "fear",
+        "anxiety"
+      ],
+      "intentions": [
+        "provision",
+        "ease"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "debt"
+    },
+    {
+      "qid": "Q020",
+      "text": "I had a nightmare and woke up sweating, please something for bad dreams",
+      "situations": [
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "night"
+    },
+    {
+      "qid": "Q021",
+      "text": "a neighbour gave me food today and I felt so grateful",
+      "situations": [
+        "gratitude"
+      ],
+      "emotions": [
+        "gratitude",
+        "joy"
+      ],
+      "intentions": [
+        "gratitude",
+        "blessing"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q022",
+      "text": "it's Friday and I want to get into a good spiritual state before going to the masjid",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "lexical_mismatch": false,
+      "occasion": "friday"
+    },
+    {
+      "qid": "Q023",
+      "text": "I'm starting my day and want something to read before I go to work",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": false,
+      "occasion": "morning"
+    },
+    {
+      "qid": "Q024",
+      "text": "it's the last ten nights of Ramadan and I want to make the most of them",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "forgiveness",
+        "guidance"
+      ],
+      "lexical_mismatch": false,
+      "occasion": "ramadan"
+    },
+    {
+      "qid": "Q025",
+      "text": "we haven't had rain in weeks and the crops are dying",
+      "situations": [
+        "anxiety",
+        "hardship"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "rain"
+    },
+    {
+      "qid": "Q026",
+      "text": "I'm terrified of a meeting tomorrow where my boss will judge me",
+      "situations": [
+        "work",
+        "anxiety"
+      ],
+      "emotions": [
+        "fear",
+        "anxiety"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q027",
+      "text": "I've been feeling low for months and nothing seems to help",
+      "situations": [
+        "sadness",
+        "grief"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q028",
+      "text": "I don't know what path to take in life and I keep going back and forth",
+      "situations": [
+        "uncertainty_about_future",
+        "guidance"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q029",
+      "text": "somebody said something nasty about me and I've been upset all day",
+      "situations": [
+        "conflict"
+      ],
+      "emotions": [
+        "sadness",
+        "anger"
+      ],
+      "intentions": [
+        "patience",
+        "ward_off_harm"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q030",
+      "text": "my grandmother is very old and I worry about how much time she has left",
+      "situations": [
+        "illness",
+        "family",
+        "death_of_lived_one"
+      ],
+      "emotions": [
+        "sadness",
+        "fear"
+      ],
+      "intentions": [
+        "mercy",
+        "patience"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q031",
+      "text": "we're about to leave for Hajj next month",
+      "situations": [
+        "travel"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "lexical_mismatch": false,
+      "occasion": "hajj"
+    },
+    {
+      "qid": "Q032",
+      "text": "I have a headache that won't go away",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "illness"
+    },
+    {
+      "qid": "Q033",
+      "text": "I want to ask Allah to forgive me for what I did to my brother",
+      "situations": [
+        "sin",
+        "repentance",
+        "family"
+      ],
+      "emotions": [
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q034",
+      "text": "I'm about to eat, is there something to say before I start",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "gratitude"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "lexical_mismatch": false,
+      "occasion": "food"
+    },
+    {
+      "qid": "Q035",
+      "text": "there's a guy at work who is trying to get me fired",
+      "situations": [
+        "conflict",
+        "work"
+      ],
+      "emotions": [
+        "anger",
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q036",
+      "text": "everything good happened to me this year and I want to thank Allah properly",
+      "situations": [
+        "gratitude"
+      ],
+      "emotions": [
+        "gratitude",
+        "joy"
+      ],
+      "intentions": [
+        "gratitude"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q037",
+      "text": "I'm so stressed about everything that I cry at night",
+      "situations": [
+        "stress",
+        "sadness"
+      ],
+      "emotions": [
+        "sadness",
+        "anxiety"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q038",
+      "text": "someone has been sending me threatening messages",
+      "situations": [
+        "conflict",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q039",
+      "text": "we found out we're having a baby and we're overjoyed",
+      "situations": [
+        "pregnancy",
+        "family"
+      ],
+      "emotions": [
+        "joy",
+        "gratitude"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q040",
+      "text": "I need to be patient and I don't think I can be",
+      "situations": [
+        "stress",
+        "hardship"
+      ],
+      "emotions": [
+        "patience",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q041",
+      "text": "the doctor said my illness is serious and I'm scared",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "fear",
+        "sadness"
+      ],
+      "intentions": [
+        "healing",
+        "mercy"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "illness"
+    },
+    {
+      "qid": "Q042",
+      "text": "I want to increase my knowledge and benefit from what I learn",
+      "situations": [
+        "study",
+        "guidance"
+      ],
+      "emotions": [
+        "humility",
+        "hope"
+      ],
+      "intentions": [
+        "knowledge"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q043",
+      "text": "we buried my uncle today and I couldn't stop crying",
+      "situations": [
+        "death_of_lived_one",
+        "grief"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "mercy",
+        "patience"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "death"
+    },
+    {
+      "qid": "Q044",
+      "text": "I've been reading my Quran and reflecting but I feel far away",
+      "situations": [
+        "guidance",
+        "repentance"
+      ],
+      "emotions": [
+        "sadness",
+        "humility"
+      ],
+      "intentions": [
+        "guidance",
+        "repentance"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q045",
+      "text": "a rival has power over me and I'm living in fear of him",
+      "situations": [
+        "injustice",
+        "conflict",
+        "fear"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q046",
+      "text": "I keep having bad dreams about my family",
+      "situations": [
+        "fear",
+        "family"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "night"
+    },
+    {
+      "qid": "Q047",
+      "text": "I'm about to get on a long drive in the desert",
+      "situations": [
+        "travel"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "travel"
+    },
+    {
+      "qid": "Q048",
+      "text": "my savings vanished and I've been left with nothing",
+      "situations": [
+        "financial_difficulty",
+        "debt"
+      ],
+      "emotions": [
+        "sadness",
+        "desperation"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q049",
+      "text": "I need to make a decision between two jobs and I'm torn",
+      "situations": [
+        "uncertainty_about_future",
+        "work"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q050",
+      "text": "I want to be closer to Allah in my daily life",
+      "situations": [
+        "general",
+        "guidance"
+      ],
+      "emotions": [
+        "humility",
+        "hope"
+      ],
+      "intentions": [
+        "guidance",
+        "gratitude"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q051",
+      "text": "my husband has been cold to me since the argument",
+      "situations": [
+        "marriage",
+        "family_conflict"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "patience",
+        "blessing"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q052",
+      "text": "I'm scared of the future and what might happen to the world",
+      "situations": [
+        "uncertainty_about_future",
+        "fear"
+      ],
+      "emotions": [
+        "fear",
+        "anxiety"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q053",
+      "text": "a relative of mine is sick and I don't know what to say to them",
+      "situations": [
+        "illness",
+        "family"
+      ],
+      "emotions": [
+        "sadness",
+        "humility"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "illness"
+    },
+    {
+      "qid": "Q054",
+      "text": "I want Allah to increase the provision for my family",
+      "situations": [
+        "financial_difficulty",
+        "family"
+      ],
+      "emotions": [
+        "hope",
+        "anxiety"
+      ],
+      "intentions": [
+        "provision",
+        "sustenance"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q055",
+      "text": "I've been summoned to court tomorrow and I don't know if I'll get away",
+      "situations": [
+        "injustice",
+        "conflict",
+        "anxiety"
+      ],
+      "emotions": [
+        "fear",
+        "anxiety"
+      ],
+      "intentions": [
+        "protection",
+        "ease"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q056",
+      "text": "it's Eid tomorrow and I want something to recite in the morning",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "gratitude",
+        "joy"
+      ],
+      "intentions": [
+        "gratitude"
+      ],
+      "lexical_mismatch": false,
+      "occasion": "eid_al_fitr"
+    },
+    {
+      "qid": "Q057",
+      "text": "I've been crying in the bathroom every night and nobody knows",
+      "situations": [
+        "sadness",
+        "loneliness",
+        "grief"
+      ],
+      "emotions": [
+        "sadness",
+        "loneliness"
+      ],
+      "intentions": [
+        "ease",
+        "mercy"
+      ],
+      "lexical_mismatch": true,
+      "ambiguous": true
+    },
+    {
+      "qid": "Q058",
+      "text": "I want to feel safe in my own house",
+      "situations": [
+        "protection_from_harm",
+        "new_home"
+      ],
+      "emotions": [
+        "fear",
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "lexical_mismatch": true
+    },
+    {
+      "qid": "Q059",
+      "text": "a friend of mine died and I'm the one who has to deliver the sermon",
+      "situations": [
+        "death_of_lived_one",
+        "grief"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "mercy",
+        "patience"
+      ],
+      "lexical_mismatch": true,
+      "ambiguous": true
+    },
+    {
+      "qid": "Q060",
+      "text": "I don't want to read anything, I just want to be able to sleep",
+      "situations": [
+        "anxiety",
+        "loneliness"
+      ],
+      "emotions": [
+        "anxiety",
+        "loneliness"
+      ],
+      "intentions": [
+        "ease",
+        "protection"
+      ],
+      "lexical_mismatch": true,
+      "occasion": "before_sleep",
+      "ambiguous": true
+    }
+  ]
+}

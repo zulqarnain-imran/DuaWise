@@ -1,0 +1,95 @@
+{
+  "split": "validation_heldout",
+  "k": 5,
+  "query_count": 45,
+  "excluded_ambiguous": 3,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "fallback_encoder": false,
+  "weights": {
+    "semantic": 0.05,
+    "lexical": 0.0,
+    "situation": 0.3,
+    "emotion": 0.15,
+    "intention": 0.3,
+    "occasion": 0.3,
+    "topic": 0.05,
+    "m3_weights": 1.0,
+    "m3_semantic": 0.45,
+    "m3_lexical": 0.05
+  },
+  "weights_tuned": true,
+  "results": {
+    "M1": {
+      "n": 42,
+      "P@5": 0.13650793650793652,
+      "R@5": 0.037510458963947335,
+      "MRR": 0.23888888888888887,
+      "nDCG@5": 0.12787703283964708,
+      "Hit@5": 0.2857142857142857
+    },
+    "M2": {
+      "n": 42,
+      "P@5": 0.31428571428571433,
+      "R@5": 0.1131857492820948,
+      "MRR": 0.5440476190476191,
+      "nDCG@5": 0.3532043358770467,
+      "Hit@5": 0.7142857142857143
+    },
+    "M3": {
+      "n": 42,
+      "P@5": 0.30952380952380953,
+      "R@5": 0.11697362806997358,
+      "MRR": 0.5253968253968254,
+      "nDCG@5": 0.34462844273078364,
+      "Hit@5": 0.6904761904761905
+    },
+    "M4": {
+      "n": 42,
+      "P@5": 0.41904761904761906,
+      "R@5": 0.1820992035526919,
+      "MRR": 0.626984126984127,
+      "nDCG@5": 0.461599798072412,
+      "Hit@5": 0.7380952380952381
+    }
+  },
+  "significance": {
+    "M4_vs_M2": {
+      "mean_difference": 0.10839546219536533,
+      "p_value": 0.0796920307969203,
+      "n": 42,
+      "iterations": 10000,
+      "significant_at_0.05": false,
+      "ci95_low": -0.01419831956249304,
+      "ci95_high": 0.2309892439532237
+    },
+    "M4_vs_M2_wilcoxon": {
+      "statistic": 295.5,
+      "z": 1.6866096911099835,
+      "p_value": 0.0916784272732711,
+      "n": 29
+    },
+    "M4_vs_M3": {
+      "mean_difference": 0.11697135534162839,
+      "p_value": 0.06209379062093791,
+      "n": 42,
+      "iterations": 10000,
+      "significant_at_0.05": false,
+      "ci95_low": -0.00706138824494093,
+      "ci95_high": 0.2410040989281977
+    },
+    "M4_vs_M1": {
+      "mean_difference": 0.33372276523276495,
+      "p_value": 9.999000099990002e-05,
+      "n": 42,
+      "iterations": 10000,
+      "significant_at_0.05": true,
+      "ci95_low": 0.2102044880435384,
+      "ci95_high": 0.4572410424219915
+    }
+  },
+  "caveats": [
+    "Gold relevance labels are derived from the same draft annotations the context features use, so M4 is advantaged by construction.",
+    "These numbers measure internal consistency and are not expert-validated.",
+    "Only the 'validation_heldout' split is free of tuning bias."
+  ]
+}

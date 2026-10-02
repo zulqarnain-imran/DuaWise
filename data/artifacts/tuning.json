@@ -1,0 +1,111 @@
+{
+  "weights": {
+    "semantic": 0.05,
+    "lexical": 0.0,
+    "situation": 0.3,
+    "emotion": 0.15,
+    "intention": 0.3,
+    "occasion": 0.3,
+    "topic": 0.05,
+    "m3_weights": true,
+    "m3_semantic": 0.45,
+    "m3_lexical": 0.05
+  },
+  "history": [
+    {
+      "model": "M3",
+      "history": [
+        {
+          "round": 0,
+          "score": 0.3323486837741851,
+          "weights": {
+            "semantic": 0.3,
+            "lexical": 0.15
+          }
+        },
+        {
+          "round": 1,
+          "score": 0.3489363937088657,
+          "weights": {
+            "semantic": 0.6,
+            "lexical": 0.05
+          }
+        },
+        {
+          "round": 2,
+          "score": 0.3495365344586291,
+          "weights": {
+            "semantic": 0.45,
+            "lexical": 0.05
+          }
+        },
+        {
+          "round": 3,
+          "score": 0.3495365344586291,
+          "weights": {
+            "semantic": 0.45,
+            "lexical": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "model": "M4",
+      "history": [
+        {
+          "round": 0,
+          "score": 0.6391045809034087,
+          "weights": {
+            "semantic": 0.05,
+            "lexical": 0.0,
+            "situation": 0.3,
+            "emotion": 0.15,
+            "intention": 0.3,
+            "occasion": 0.3,
+            "topic": 0.05
+          }
+        },
+        {
+          "round": 1,
+          "score": 0.6391045809034087,
+          "weights": {
+            "semantic": 0.05,
+            "lexical": 0.0,
+            "situation": 0.3,
+            "emotion": 0.15,
+            "intention": 0.3,
+            "occasion": 0.3,
+            "topic": 0.05
+          }
+        }
+      ]
+    }
+  ],
+  "m3_weights": {
+    "semantic": 0.45,
+    "lexical": 0.05
+  },
+  "train_metrics": {
+    "n": 129,
+    "P@5": 0.635659,
+    "R@5": 0.16602,
+    "MRR": 0.802842,
+    "nDCG@5": 0.639105,
+    "Hit@5": 0.899225
+  },
+  "validation_metrics": {
+    "n": 42,
+    "P@5": 0.419048,
+    "R@5": 0.182099,
+    "MRR": 0.626984,
+    "nDCG@5": 0.4616,
+    "Hit@5": 0.738095
+  },
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "fallback_encoder": false,
+  "notes": [
+    "M3 and M4 are tuned independently on the training split only.",
+    "Queries flagged ambiguous are excluded from the objective.",
+    "Gold labels are derived from draft annotations, so these metrics measure internal consistency, not expert agreement."
+  ]
+}

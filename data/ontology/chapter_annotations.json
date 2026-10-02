@@ -1,0 +1,1369 @@
+{
+  "version": "1.0",
+  "annotation_method": "manual",
+  "annotator": "project-team-draft",
+  "status": "DRAFT_UNREVIEWED",
+  "warning": "These context labels were assigned by the project team, not by qualified scholars. They drive the entire ranking model. They MUST be reviewed by an Islamic studies annotator before any result is reported. See docs/ANNOTATION.md.",
+  "convention": "situation = user circumstance; emotion = user feeling; intention = purpose served; topic = subject matter. Multi-label.",
+  "chapters": {
+    "1": {
+      "title": "Remembrance on waking up",
+      "situations": [
+        "new_beginning",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "gratitude",
+        "peace"
+      ],
+      "intentions": [
+        "gratitude",
+        "protection"
+      ],
+      "occasions": [
+        "after_sleep",
+        "morning"
+      ],
+      "topics": [
+        "gratitude",
+        "protection"
+      ]
+    },
+    "9": {
+      "title": "After completing ablution",
+      "situations": [
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection",
+        "worship"
+      ]
+    },
+    "10": {
+      "title": "Leaving the home",
+      "situations": [
+        "protection_from_harm",
+        "travel"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "travel"
+      ],
+      "topics": [
+        "journey",
+        "protection"
+      ]
+    },
+    "11": {
+      "title": "Entering the home",
+      "situations": [
+        "new_home",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "new_home"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "13": {
+      "title": "Entering the mosque",
+      "situations": [
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "mosque"
+      ],
+      "topics": [
+        "protection",
+        "worship"
+      ]
+    },
+    "14": {
+      "title": "Leaving the mosque",
+      "situations": [
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "mosque"
+      ],
+      "topics": [
+        "protection",
+        "worship"
+      ]
+    },
+    "15": {
+      "title": "On hearing the call to prayer",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "worship"
+      ]
+    },
+    "24": {
+      "title": "After the final sitting, before ending the prayer",
+      "situations": [],
+      "emotions": [
+        "humility"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance",
+        "worship"
+      ]
+    },
+    "25": {
+      "title": "After completing the prayer",
+      "situations": [
+        "protection_from_harm",
+        "sin"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "forgiveness",
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection",
+        "worship"
+      ]
+    },
+    "26": {
+      "title": "Istikharah: seeking Allah's counsel",
+      "situations": [
+        "new_beginning",
+        "study",
+        "uncertainty_about_future",
+        "work"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance"
+      ]
+    },
+    "27": {
+      "title": "Remembrance for morning and evening",
+      "situations": [
+        "anxiety",
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear",
+        "peace"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "occasions": [
+        "evening",
+        "morning"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "28": {
+      "title": "Before sleeping",
+      "situations": [
+        "anxiety",
+        "loneliness",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear",
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "before_sleep",
+        "night"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "29": {
+      "title": "Stirring in the night",
+      "situations": [
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "night"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "30": {
+      "title": "Afraid to sleep or feeling lonely",
+      "situations": [
+        "anxiety",
+        "fear",
+        "loneliness"
+      ],
+      "emotions": [
+        "fear",
+        "loneliness"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "before_sleep",
+        "night"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "31": {
+      "title": "After a bad dream",
+      "situations": [
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "occasions": [
+        "night"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "34": {
+      "title": "Times of worry and grief",
+      "situations": [
+        "anxiety",
+        "sadness",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "anxiety",
+        "sadness"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "35": {
+      "title": "Times of anguish",
+      "situations": [
+        "anxiety",
+        "hardship",
+        "sadness"
+      ],
+      "emotions": [
+        "desperation",
+        "sadness"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "36": {
+      "title": "Meeting an adversary or a powerful ruler",
+      "situations": [
+        "conflict",
+        "fear",
+        "work"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "ease",
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "37": {
+      "title": "Against the oppression of rulers",
+      "situations": [
+        "conflict",
+        "fear",
+        "injustice"
+      ],
+      "emotions": [
+        "anger",
+        "fear"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "38": {
+      "title": "Against an enemy",
+      "situations": [
+        "conflict"
+      ],
+      "emotions": [
+        "anger"
+      ],
+      "intentions": [
+        "ward_off_harm"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "39": {
+      "title": "When you fear people may harm you",
+      "situations": [
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "40": {
+      "title": "Stricken in your faith",
+      "situations": [
+        "anxiety",
+        "sin"
+      ],
+      "emotions": [
+        "anxiety",
+        "shame"
+      ],
+      "intentions": [
+        "guidance",
+        "repentance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "guidance",
+        "repentance"
+      ]
+    },
+    "41": {
+      "title": "For the setting of a debt",
+      "situations": [
+        "debt",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "anxiety",
+        "hope"
+      ],
+      "intentions": [
+        "ease",
+        "sustenance"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "43": {
+      "title": "When something becomes difficult",
+      "situations": [
+        "stress",
+        "study",
+        "work"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "ease"
+      ],
+      "occations": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ],
+      "occasions": []
+    },
+    "44": {
+      "title": "After committing a sin",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "regret",
+        "shame"
+      ],
+      "intentions": [
+        "forgiveness",
+        "repentance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "45": {
+      "title": "Against the Devil and his promptings",
+      "situations": [
+        "protection_from_harm",
+        "sin"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "46": {
+      "title": "When something you dislike happens",
+      "situations": [
+        "stress",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "anxiety",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "47": {
+      "title": "For new parents",
+      "situations": [
+        "pregnancy",
+        "family"
+      ],
+      "emotions": [
+        "gratitude",
+        "joy"
+      ],
+      "intentions": [
+        "blessing",
+        "gratitude"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "family",
+        "gratitude"
+      ]
+    },
+    "48": {
+      "title": "Seeking protection for children",
+      "situations": [
+        "protection_from_harm",
+        "family"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "family",
+        "protection"
+      ]
+    },
+    "49": {
+      "title": "Visiting the sick",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "humility",
+        "sadness"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health"
+      ]
+    },
+    "51": {
+      "title": "For the terminally ill",
+      "situations": [
+        "death_of_loved_one",
+        "illness"
+      ],
+      "emotions": [
+        "fear",
+        "sadness"
+      ],
+      "intentions": [
+        "forgiveness",
+        "healing"
+      ],
+      "occasions": [
+        "death",
+        "illness"
+      ],
+      "topics": [
+        "health"
+      ]
+    },
+    "53": {
+      "title": "When tragedy strikes",
+      "situations": [
+        "death_of_loved_one",
+        "grief",
+        "illness"
+      ],
+      "emotions": [
+        "grief",
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "55": {
+      "title": "For the dead in the funeral prayer",
+      "situations": [
+        "death_of_loved_one"
+      ],
+      "emotions": [
+        "humility",
+        "sadness"
+      ],
+      "intentions": [
+        "forgiveness",
+        "mercy"
+      ],
+      "occasions": [
+        "death"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "57": {
+      "title": "For the bereaved",
+      "situations": [
+        "death_of_loved_one",
+        "grief"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "death"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "60": {
+      "title": "Visiting the graves",
+      "situations": [
+        "death_of_loved_one"
+      ],
+      "emotions": [
+        "humility",
+        "sadness"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "death"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "63": {
+      "title": "For rain",
+      "situations": [
+        "anxiety"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "occasions": [
+        "rain"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "66": {
+      "title": "For the withholding of rain",
+      "situations": [
+        "anxiety",
+        "stress"
+      ],
+      "emotions": [
+        "anxiety"
+      ],
+      "intentions": [
+        "ease",
+        "provision"
+      ],
+      "occasions": [
+        "rain"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "67": {
+      "title": "On sighting the new moon",
+      "situations": [
+        "new_beginning"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "ramadan"
+      ],
+      "topics": [
+        "worship"
+      ]
+    },
+    "68": {
+      "title": "Breaking the fast",
+      "situations": [
+        "gratitude"
+      ],
+      "emotions": [
+        "gratitude",
+        "joy"
+      ],
+      "intentions": [
+        "guidance"
+      ],
+      "occasions": [
+        "eid_al_fitr",
+        "ramadan"
+      ],
+      "topics": [
+        "gratitude",
+        "worship"
+      ]
+    },
+    "69": {
+      "title": "Before eating",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "gratitude"
+      ],
+      "intentions": [
+        "provision"
+      ],
+      "occasions": [
+        "food"
+      ],
+      "topics": [
+        "gratitude",
+        "provision"
+      ]
+    },
+    "70": {
+      "title": "After eating",
+      "situations": [
+        "general"
+      ],
+      "emotions": [
+        "gratitude"
+      ],
+      "intentions": [
+        "gratitude"
+      ],
+      "occasions": [
+        "food"
+      ],
+      "topics": [
+        "gratitude"
+      ]
+    },
+    "79": {
+      "title": "For the groom",
+      "situations": [
+        "marriage"
+      ],
+      "emotions": [
+        "hope",
+        "joy"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "wedding"
+      ],
+      "topics": [
+        "blessing",
+        "family"
+      ]
+    },
+    "80": {
+      "title": "Wedding night",
+      "situations": [
+        "marriage"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "wedding"
+      ],
+      "topics": [
+        "family"
+      ]
+    },
+    "81": {
+      "title": "Before intimacy",
+      "situations": [
+        "marriage"
+      ],
+      "emotions": [
+        "humility"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "wedding"
+      ],
+      "topics": [
+        "family"
+      ]
+    },
+    "82": {
+      "title": "For anger",
+      "situations": [
+        "anger",
+        "conflict",
+        "family_conflict"
+      ],
+      "emotions": [
+        "anger"
+      ],
+      "intentions": [
+        "ease",
+        "patience"
+      ],
+      "occasions": [
+        "anger"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "83": {
+      "title": "On seeing someone afflicted by misfortune",
+      "situations": [
+        "grief",
+        "illness"
+      ],
+      "emotions": [
+        "humility",
+        "sadness"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    },
+    "86": {
+      "title": "When someone says 'may Allah forgive you'",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "humility"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "87": {
+      "title": "For someone who does good to you",
+      "situations": [
+        "gratitude"
+      ],
+      "emotions": [
+        "gratitude"
+      ],
+      "intentions": [
+        "blessing",
+        "gratitude"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "gratitude"
+      ]
+    },
+    "88": {
+      "title": "Protection from fitnah",
+      "situations": [
+        "protection_from_harm",
+        "sin"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "91": {
+      "title": "For someone who lends you money",
+      "situations": [
+        "debt",
+        "financial_difficulty"
+      ],
+      "emotions": [
+        "gratitude",
+        "hope"
+      ],
+      "intentions": [
+        "sustenance"
+      ],
+      "occasions": [
+        "debt"
+      ],
+      "topics": [
+        "provision"
+      ]
+    },
+    "93": {
+      "title": "When someone says 'may Allah bless you'",
+      "situations": [
+        "gratitude"
+      ],
+      "emotions": [
+        "gratitude"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "gratitude"
+      ]
+    },
+    "95": {
+      "title": "Riding a vehicle or animal",
+      "situations": [
+        "travel"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "travel"
+      ],
+      "topics": [
+        "journey",
+        "protection"
+      ]
+    },
+    "96": {
+      "title": "For travelling",
+      "situations": [
+        "protection_from_harm",
+        "travel"
+      ],
+      "emotions": [
+        "fear",
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "travel"
+      ],
+      "topics": [
+        "journey",
+        "protection"
+      ]
+    },
+    "97": {
+      "title": "Entering a town or city",
+      "situations": [
+        "travel"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "travel"
+      ],
+      "topics": [
+        "journey"
+      ]
+    },
+    "98": {
+      "title": "Entering a market",
+      "situations": [
+        "protection_from_harm",
+        "work"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "protection",
+        "provision"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection",
+        "provision"
+      ]
+    },
+    "103": {
+      "title": "The traveller's invocation at dawn",
+      "situations": [
+        "travel"
+      ],
+      "emotions": [
+        "hope",
+        "peace"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "morning",
+        "travel"
+      ],
+      "topics": [
+        "journey"
+      ]
+    },
+    "106": {
+      "title": "When something pleases or displeases you",
+      "situations": [
+        "gratitude",
+        "uncertainty_about_future"
+      ],
+      "emotions": [
+        "anxiety",
+        "joy"
+      ],
+      "intentions": [
+        "gratitude",
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "gratitude",
+        "patience"
+      ]
+    },
+    "111": {
+      "title": "On hearing a dog barking at night",
+      "situations": [
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "night"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "115": {
+      "title": "The pilgrim's talbiyah for Hajj or Umrah",
+      "situations": [
+        "travel"
+      ],
+      "emotions": [
+        "hope"
+      ],
+      "intentions": [
+        "blessing"
+      ],
+      "occasions": [
+        "hajj",
+        "umrah"
+      ],
+      "topics": [
+        "journey",
+        "worship"
+      ]
+    },
+    "119": {
+      "title": "On the Day of Arafat",
+      "situations": [
+        "travel"
+      ],
+      "emotions": [
+        "hope",
+        "humility"
+      ],
+      "intentions": [
+        "forgiveness"
+      ],
+      "occasions": [
+        "hajj"
+      ],
+      "topics": [
+        "repentance",
+        "worship"
+      ]
+    },
+    "122": {
+      "title": "When surprised or startled",
+      "situations": [
+        "fear"
+      ],
+      "emotions": [
+        "fear",
+        "surprise"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "123": {
+      "title": "When something pleasing happens",
+      "situations": [
+        "gratitude",
+        "new_beginning"
+      ],
+      "emotions": [
+        "gratitude",
+        "joy"
+      ],
+      "intentions": [
+        "gratitude"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "gratitude"
+      ]
+    },
+    "124": {
+      "title": "When you feel pain in the body",
+      "situations": [
+        "illness"
+      ],
+      "emotions": [
+        "sadness"
+      ],
+      "intentions": [
+        "healing"
+      ],
+      "occasions": [
+        "illness"
+      ],
+      "topics": [
+        "health"
+      ]
+    },
+    "125": {
+      "title": "When you fear the evil eye",
+      "situations": [
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection",
+        "ward_off_harm"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "126": {
+      "title": "When you feel frightened",
+      "situations": [
+        "fear",
+        "protection_from_harm"
+      ],
+      "emotions": [
+        "fear"
+      ],
+      "intentions": [
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "protection"
+      ]
+    },
+    "129": {
+      "title": "Repentance and seeking forgiveness",
+      "situations": [
+        "repentance",
+        "sin"
+      ],
+      "emotions": [
+        "humility",
+        "regret"
+      ],
+      "intentions": [
+        "forgiveness",
+        "repentance"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "repentance"
+      ]
+    },
+    "130": {
+      "title": "The excellence of remembering Allah",
+      "situations": [
+        "anxiety",
+        "protection_from_harm",
+        "sadness"
+      ],
+      "emotions": [
+        "gratitude",
+        "peace"
+      ],
+      "intentions": [
+        "gratitude",
+        "protection"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "praise_of_allah",
+        "protection"
+      ]
+    },
+    "132": {
+      "title": "Good etiquette in community life",
+      "situations": [
+        "family_conflict",
+        "conflict",
+        "family"
+      ],
+      "emotions": [
+        "peace"
+      ],
+      "intentions": [
+        "patience"
+      ],
+      "occasions": [
+        "general"
+      ],
+      "topics": [
+        "patience"
+      ]
+    }
+  }
+}

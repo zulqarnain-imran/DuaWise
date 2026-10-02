@@ -1,0 +1,100 @@
+{
+  "hisnul_books": {
+    "success": true,
+    "data": [
+      {
+        "book_id": 1,
+        "chapter_count": 133,
+        "dua_count": 312,
+        "name": "হিসনুল মুসলিম"
+      },
+      {
+        "book_id": 2,
+        "chapter_count": 77,
+        "dua_count": 77,
+        "name": "কুরআনের দোয়াসমূহ"
+      },
+      {
+        "book_id": 3,
+        "chapter_count": 9,
+        "dua_count": 32,
+        "name": "বিশেষ যিকর ও দোয়া"
+      }
+    ]
+  },
+  "hisnul_chapters_sample": {
+    "shape": [
+      "success",
+      "book_id",
+      "total",
+      "data"
+    ],
+    "pagination": null,
+    "first_two": [
+      {
+        "chap_id": 0,
+        "chapname": "যিক্‌রের ফযীলত",
+        "dua_count": 1
+      },
+      {
+        "chap_id": 1,
+        "chapname": "ঘুম থেকে জেগে উঠার সময়ের যিক্‌রসমূহ",
+        "dua_count": 4
+      }
+    ]
+  },
+  "hisnul_chapter1_duas": {
+    "total": 4,
+    "first": [
+      {
+        "dua_global_id": 2,
+        "book_id": 1,
+        "chap_id": 1,
+        "dua_id": 1,
+        "chapname": "ঘুম থেকে জেগে উঠার সময়ের যিক্‌রসমূহ",
+        "duaname": "ঘুম থেকে জেগে উঠার সময়ের যিক্‌রসমূহ #১",
+        "tags": "ঘুম উঠা জেগে",
+        "ID": 1.1,
+        "categories": [
+          {
+            "id": 1,
+            "name": "ঘুম"
+          }
+        ],
+        "segments": [
+          {
+            "dua_segment_id": null,
+            "top": null,
+            "arabic_diacless": "الحمد للٰه الذي احيانا بعد ما اماتنا، واليه النشور",
+            "arabic": "اَلْحَمْدُ لِلّٰهِ الَّذِيْٓ اَحْيَانَا بَعْدَ مَآ اَمَاتَنَا، وَاِلَيْهِ النُّشُوْرُ",
+            "transliteration": "আলহামদু লিল্লা-হিল্লাযী আহ্ইয়া-না- বা‘দা মা- আমা-তানা- ওয়া ইলাইহিন্ নুশূর",
+            "translations": "হামদ-প্রশংসা আল্লাহ্‌র জন্য, যিনি (নিদ্রারূপ) মৃত্যুর পর আমাদেরকে জীবিত করলেন, আর তাঁরই নিকট সকলের পুনরুত্থান",
+            "bottom": null,
+            "reference": "বুখারী ফাতহুল বারী ১১/১১৩, নং ৬৩১৪; মুসলিম ৪/২০৮৩, নং ২৭১১",
+            "app_reference": "2:1:80:11,2:2:48:80,2:1:80:9,2:1:80:21,2:1:80:22,2:1:97:23,2:1:97:24,2:4:43:277,2:6:34:54",
+            "words": []
+          }
+        ]
+      }
+    ]
+  },
+  "quran_verse": {
+    "id": 262,
+    "verse_number": 255,
+    "verse_key": "2:255",
+    "hizb_number": 5,
+    "rub_el_hizb_number": 17,
+    "ruku_number": 35,
+    "manzil_number": 1,
+    "sajdah_number": null,
+    "page_number": 42,
+    "juz_number": 3,
+    "translations": [
+      {
+        "id": 97729,
+        "resource_id": 20,
+        "text": "Allāh - there is no deity except Him, the Ever-Living,<sup foot_note=196031>1</sup> the Self-Sustaining.<sup foot_note=196030>2</sup> Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them,<sup foot_note=196029>3</sup> and they encompass not a thing of His knowledge except for what He wills. His Kursī<sup foot_note=196028>4</sup> extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High,<sup foot_note=196027>5</sup> the Most Great.<sup foot_note=196026>6</sup>"
+      }
+    ]
+  }
+}

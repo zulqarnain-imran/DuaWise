@@ -1,0 +1,76 @@
+{
+  "k": 5,
+  "query_count": 180,
+  "excluded_ambiguous": 9,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "fallback_encoder": false,
+  "weights": {
+    "semantic": 0.05,
+    "lexical": 0.05,
+    "situation": 0.2,
+    "emotion": 0.1,
+    "intention": 0.1,
+    "occasion": 0.2,
+    "topic": 0.15
+  },
+  "results": {
+    "M1": {
+      "n": 171,
+      "P@5": 0.16705653021442496,
+      "R@5": 0.03257381188997212,
+      "MRR": 0.2886939571150097,
+      "nDCG@5": 0.14879598596594495,
+      "Hit@5": 0.40350877192982454
+    },
+    "M2": {
+      "n": 171,
+      "P@5": 0.3345029239766082,
+      "R@5": 0.09004101639340399,
+      "MRR": 0.560916179337232,
+      "nDCG@5": 0.34281364299388817,
+      "Hit@5": 0.7953216374269005
+    },
+    "M3": {
+      "n": 171,
+      "P@5": 0.28771929824561404,
+      "R@5": 0.07982486785237458,
+      "MRR": 0.47192982456140353,
+      "nDCG@5": 0.28727581834901833,
+      "Hit@5": 0.7543859649122807
+    },
+    "M4": {
+      "n": 171,
+      "P@5": 0.5707602339181287,
+      "R@5": 0.16730004324551057,
+      "MRR": 0.7664717348927875,
+      "nDCG@5": 0.5946958358541928,
+      "Hit@5": 0.8304093567251462
+    }
+  },
+  "significance": {
+    "M4_vs_M2": {
+      "mean_difference": 0.2518821928603047,
+      "p_value": 9.999000099990002e-05,
+      "n": 171,
+      "iterations": 10000,
+      "significant_at_0.05": true
+    },
+    "M4_vs_M2_wilcoxon": {
+      "statistic": 9133.0,
+      "z": 7.803713204906562,
+      "p_value": 6.011171520351717e-15,
+      "n": 144
+    },
+    "M4_vs_M3": {
+      "mean_difference": 0.3074200175051746,
+      "p_value": 9.999000099990002e-05,
+      "n": 171,
+      "iterations": 10000,
+      "significant_at_0.05": true
+    }
+  },
+  "caveats": [
+    "Gold relevance labels are derived from the same draft annotations the context features use, so M4 is advantaged by construction.",
+    "These numbers measure internal consistency and are not expert-validated."
+  ]
+}

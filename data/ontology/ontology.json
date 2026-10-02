@@ -1,0 +1,666 @@
+{
+  "version": "1.0",
+  "status": "DRAFT - requires review by a qualified Islamic scholar before use in a published system",
+  "notes": [
+    "situation = the user's circumstance. emotion = the user's feeling. topic = the subject matter of the dua. These are deliberately distinct and are the most common source of annotation disagreement.",
+    "Every label must be supportable by a line in the source's own context. If the source does not state why the dua is prescribed, record occasion 'general' and flag for adjudication. Do not infer context from the Arabic alone.",
+    "All label sets are multi-label. A travel dua is also a protection dua and a fear dua."
+  ],
+  "situations": [
+    {
+      "term_id": "sadness",
+      "definition": "User describes feeling low, unhappy, or discouraged.",
+      "includes": [
+        "feeling low",
+        "unhappy",
+        "discouraged"
+      ],
+      "excludes": [
+        "grief over a death - use death_of_loved_one"
+      ]
+    },
+    {
+      "term_id": "stress",
+      "definition": "User describes pressure, overwhelm, or being unable to cope.",
+      "includes": [
+        "overwhelmed",
+        "too much pressure",
+        "burnt out"
+      ],
+      "excludes": [
+        "worry about a specific outcome - use uncertainty_about_future"
+      ]
+    },
+    {
+      "term_id": "anxiety",
+      "definition": "User describes worry, unease, or fear of what may happen.",
+      "includes": [
+        "worried",
+        "nervous",
+        "uneasy",
+        "panic"
+      ],
+      "excludes": [
+        "acute danger - use fear"
+      ]
+    },
+    {
+      "term_id": "fear",
+      "definition": "User describes fear of a specific present threat.",
+      "includes": [
+        "afraid",
+        "frightened",
+        "scared"
+      ],
+      "excludes": [
+        "general worry - use anxiety"
+      ]
+    },
+    {
+      "term_id": "financial_difficulty",
+      "definition": "User describes inability to meet financial needs.",
+      "includes": [
+        "no money",
+        "can't afford",
+        "short of money",
+        "bills"
+      ],
+      "excludes": [
+        "specifically borrowing money - also label debt"
+      ]
+    },
+    {
+      "term_id": "debt",
+      "definition": "User describes owing money or repayment difficulty.",
+      "includes": [
+        "loan",
+        "owe money",
+        "repay"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "unemployment",
+      "definition": "User describes loss of work or difficulty finding work.",
+      "includes": [
+        "unemployed",
+        "jobless",
+        "laid off",
+        "no job"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "illness",
+      "definition": "User or someone close is unwell.",
+      "includes": [
+        "sick",
+        "unwell",
+        "diagnosis",
+        "hospital",
+        "pain",
+        "surgery"
+      ],
+      "excludes": [
+        "death - use death_of_loved_one"
+      ]
+    },
+    {
+      "term_id": "death_of_loved_one",
+      "definition": "A death has occurred or is imminent.",
+      "includes": [
+        "died",
+        "passed away",
+        "funeral",
+        "mourning"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "travel",
+      "definition": "User is journeying or about to journey.",
+      "includes": [
+        "trip",
+        "journey",
+        "flight",
+        "travelling",
+        "visiting family"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "marriage",
+      "definition": "User is marrying, married, or seeking marriage.",
+      "includes": [
+        "wedding",
+        "nikah",
+        "newly married",
+        "spouse"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "family_conflict",
+      "definition": "Tension or dispute within the family.",
+      "includes": [
+        "argument with family",
+        "parents",
+        "in-laws",
+        "relatives"
+      ],
+      "excludes": [
+        "general community dispute - use conflict"
+      ]
+    },
+    {
+      "term_id": "study",
+      "definition": "User is studying, in education, or sitting an examination.",
+      "includes": [
+        "exam",
+        "university",
+        "school",
+        "grades",
+        "homework"
+      ],
+      "excludes": [
+        "seeking general knowledge - also label knowledge"
+      ]
+    },
+    {
+      "term_id": "work",
+      "definition": "User faces difficulty in employment or career.",
+      "includes": [
+        "career",
+        "boss",
+        "colleagues",
+        "presentation"
+      ],
+      "excludes": [
+        "job loss - also label unemployment"
+      ]
+    },
+    {
+      "term_id": "sin",
+      "definition": "User has committed or is considering a wrong.",
+      "includes": [
+        "sinned",
+        "mistake",
+        "wrongdoing"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "repentance",
+      "definition": "User seeks forgiveness and turning back.",
+      "includes": [
+        "forgive me",
+        "repent",
+        "turn back"
+      ],
+      "excludes": [
+        "seeking forgiveness on behalf of a deceased - label death_of_lived_one"
+      ]
+    },
+    {
+      "term_id": "loneliness",
+      "definition": "User describes isolation or absence of company.",
+      "includes": [
+        "alone",
+        "isolated",
+        "nobody"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "conflict",
+      "definition": "Dispute or hostility outside the family.",
+      "includes": [
+        "enemy",
+        "argument",
+        "fight",
+        "opposition"
+      ],
+      "excludes": [
+        "family - use family_conflict"
+      ]
+    },
+    {
+      "term_id": "grief",
+      "definition": "User describes deep sorrow following a loss.",
+      "includes": [
+        "mourning",
+        "heartbroken",
+        "devastated"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "uncertainty_about_future",
+      "definition": "User describes not knowing what will happen.",
+      "includes": [
+        "what comes next",
+        "the future",
+        "uncertain",
+        "don't know what to do"
+      ],
+      "excludes": [
+        "specific financial worry - also label financial_difficulty"
+      ]
+    },
+    {
+      "term_id": "protection_from_harm",
+      "definition": "User asks for safety from harm.",
+      "includes": [
+        "protect me",
+        "keep me safe",
+        "guard"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "new_home",
+      "definition": "User has moved into or acquired a dwelling.",
+      "includes": [
+        "new house",
+        "moved in",
+        "home"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "pregnancy",
+      "definition": "User is pregnant or seeking a child.",
+      "includes": [
+        "pregnant",
+        "childbirth",
+        "trying for a baby"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "anger",
+      "definition": "User describes feeling angry.",
+      "includes": [
+        "angry",
+        "furious",
+        "rage"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "gratitude",
+      "definition": "User wishes to give thanks.",
+      "includes": [
+        "thankful",
+        "grateful",
+        "praise"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "guidance",
+      "definition": "User asks to be guided to the right path.",
+      "includes": [
+        "guide me",
+        "show me the way",
+        "guidance"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "new_beginning",
+      "definition": "User faces the start of something new.",
+      "includes": [
+        "new job",
+        "new school",
+        "starting"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "hardship",
+      "definition": "User describes a general difficulty or affliction with no more specific cause given.",
+      "includes": [
+        "hardship",
+        "difficulty",
+        "affliction",
+        "hard time"
+      ],
+      "excludes": [
+        "a named cause - prefer the specific situation term"
+      ]
+    },
+    {
+      "term_id": "injustice",
+      "definition": "User describes being treated unfairly or oppressed.",
+      "includes": [
+        "unfair",
+        "oppressed",
+        "wronged",
+        "cheated"
+      ],
+      "excludes": []
+    },
+    {
+      "term_id": "family",
+      "definition": "User describes concern for family members or their welfare.",
+      "includes": [
+        "my family",
+        "my children",
+        "my parents",
+        "relatives"
+      ],
+      "excludes": [
+        "dispute within the family - use family_conflict"
+      ]
+    },
+    {
+      "term_id": "general",
+      "definition": "The dua is not tied to a particular user circumstance. Used when no situation label is supportable.",
+      "includes": [],
+      "excludes": []
+    }
+  ],
+  "emotions": [
+    {
+      "term_id": "sadness",
+      "definition": "Feeling low or unhappy."
+    },
+    {
+      "term_id": "fear",
+      "definition": "Feeling afraid."
+    },
+    {
+      "term_id": "anxiety",
+      "definition": "Feeling worried or uneasy."
+    },
+    {
+      "term_id": "hope",
+      "definition": "Feeling hopeful about an outcome."
+    },
+    {
+      "term_id": "gratitude",
+      "definition": "Feeling thankful."
+    },
+    {
+      "term_id": "joy",
+      "definition": "Feeling happy or delighted."
+    },
+    {
+      "term_id": "anger",
+      "definition": "Feeling angry."
+    },
+    {
+      "term_id": "regret",
+      "definition": "Feeling remorse about a past action."
+    },
+    {
+      "term_id": "loneliness",
+      "definition": "Feeling isolated."
+    },
+    {
+      "term_id": "peace",
+      "definition": "Feeling calm and settled."
+    },
+    {
+      "term_id": "humility",
+      "definition": "Feeling dependent and small before Allah."
+    },
+    {
+      "term_id": "desperation",
+      "definition": "Feeling with no remaining recourse."
+    },
+    {
+      "term_id": "patience",
+      "definition": "Resolve to endure."
+    },
+    {
+      "term_id": "shame",
+      "definition": "Feeling ashamed."
+    },
+    {
+      "term_id": "grief",
+      "definition": "Feeling deep sorrow at a loss."
+    },
+    {
+      "term_id": "surprise",
+      "definition": "Feeling startled or taken aback."
+    }
+  ],
+  "intentions": [
+    {
+      "term_id": "guidance",
+      "definition": "Asking to be guided."
+    },
+    {
+      "term_id": "forgiveness",
+      "definition": "Asking pardon."
+    },
+    {
+      "term_id": "protection",
+      "definition": "Asking to be kept safe."
+    },
+    {
+      "term_id": "healing",
+      "definition": "Asking for recovery of health."
+    },
+    {
+      "term_id": "sustenance",
+      "definition": "Asking for provision or increase in wealth."
+    },
+    {
+      "term_id": "patience",
+      "definition": "Asking for steadfastness."
+    },
+    {
+      "term_id": "knowledge",
+      "definition": "Asking for beneficial knowledge."
+    },
+    {
+      "term_id": "ease",
+      "definition": "Asking for relief from difficulty."
+    },
+    {
+      "term_id": "gratitude",
+      "definition": "Expressing thanks."
+    },
+    {
+      "term_id": "repentance",
+      "definition": "Asking to turn back from sin."
+    },
+    {
+      "term_id": "expiation",
+      "definition": "Asking that wrong be removed."
+    },
+    {
+      "term_id": "ward_off_harm",
+      "definition": "Asking that harm be kept away."
+    },
+    {
+      "term_id": "provision",
+      "definition": "Asking Allah to provide."
+    },
+    {
+      "term_id": "blessing",
+      "definition": "Asking for blessing in an affair."
+    },
+    {
+      "term_id": "mercy",
+      "definition": "Asking for mercy."
+    }
+  ],
+  "occasions": [
+    {
+      "term_id": "general",
+      "definition": "Not tied to a specific time or event."
+    },
+    {
+      "term_id": "morning",
+      "definition": "Recited in the morning."
+    },
+    {
+      "term_id": "evening",
+      "definition": "Recited in the evening."
+    },
+    {
+      "term_id": "night",
+      "definition": "Recited at night."
+    },
+    {
+      "term_id": "before_sleep",
+      "definition": "Recited before sleeping."
+    },
+    {
+      "term_id": "after_sleep",
+      "definition": "Recited on waking."
+    },
+    {
+      "term_id": "friday",
+      "definition": "Associated with Friday."
+    },
+    {
+      "term_id": "ramadan",
+      "definition": "Associated with Ramadan."
+    },
+    {
+      "term_id": "eid_al_fitr",
+      "definition": "Associated with Eid al-Fitr."
+    },
+    {
+      "term_id": "eid_al_adha",
+      "definition": "Associated with Eid al-Adha."
+    },
+    {
+      "term_id": "hajj",
+      "definition": "Associated with the Hajj rituals."
+    },
+    {
+      "term_id": "umrah",
+      "definition": "Associated with Umrah."
+    },
+    {
+      "term_id": "wedding",
+      "definition": "Associated with marriage."
+    },
+    {
+      "term_id": "travel",
+      "definition": "Recited when travelling."
+    },
+    {
+      "term_id": "rain",
+      "definition": "Associated with rain."
+    },
+    {
+      "term_id": "illness",
+      "definition": "Recited when unwell or visiting the sick."
+    },
+    {
+      "term_id": "new_home",
+      "definition": "Recited on entering a new dwelling."
+    },
+    {
+      "term_id": "death",
+      "definition": "Associated with death or burial."
+    },
+    {
+      "term_id": "debt",
+      "definition": "Associated with repayment of debt."
+    },
+    {
+      "term_id": "exam",
+      "definition": "Recited before an examination."
+    },
+    {
+      "term_id": "food",
+      "definition": "Recited before or after eating."
+    },
+    {
+      "term_id": "mosque",
+      "definition": "Recited on entering or leaving the mosque."
+    },
+    {
+      "term_id": "anger",
+      "definition": "Recited when angry."
+    }
+  ],
+  "topics": [
+    {
+      "term_id": "quran",
+      "definition": "The dua text is drawn from the Qur'an."
+    },
+    {
+      "term_id": "hadith",
+      "definition": "The dua text is transmitted in hadith."
+    },
+    {
+      "term_id": "praise_of_allah",
+      "definition": "Declarations of Allah's praise and attributes."
+    },
+    {
+      "term_id": "protection",
+      "definition": "Seeking refuge and safety."
+    },
+    {
+      "term_id": "provision",
+      "definition": "Sustenance and wealth."
+    },
+    {
+      "term_id": "health",
+      "definition": "Health and illness."
+    },
+    {
+      "term_id": "family",
+      "definition": "Family and lineage."
+    },
+    {
+      "term_id": "knowledge",
+      "definition": "Learning and understanding."
+    },
+    {
+      "term_id": "patience",
+      "definition": "Endurance under difficulty."
+    },
+    {
+      "term_id": "repentance",
+      "definition": "Turning back from sin."
+    },
+    {
+      "term_id": "gratitude",
+      "definition": "Thanksgiving."
+    },
+    {
+      "term_id": "worship",
+      "definition": "Ritual worship obligations."
+    },
+    {
+      "term_id": "journey",
+      "definition": "Travel and arrival."
+    },
+    {
+      "term_id": "guidance",
+      "definition": "Guidance and right understanding."
+    },
+    {
+      "term_id": "blessing",
+      "definition": "Blessing and barakah."
+    },
+    {
+      "term_id": "obedience",
+      "definition": "Compliance with religious obligation."
+    },
+    {
+      "term_id": "prayer",
+      "definition": "Supplication and invocation."
+    },
+    {
+      "term_id": "help",
+      "definition": "Asking Allah for assistance."
+    }
+  ],
+  "time_context": [
+    "morning",
+    "evening",
+    "night",
+    "anytime"
+  ]
+}

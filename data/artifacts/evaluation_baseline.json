@@ -1,0 +1,74 @@
+{
+  "k": 5,
+  "query_count": 180,
+  "excluded_ambiguous": 9,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "fallback_encoder": false,
+  "weights": {
+    "semantic": 0.3,
+    "lexical": 0.15,
+    "situation": 0.2,
+    "emotion": 0.1,
+    "intention": 0.1,
+    "occasion": 0.1,
+    "topic": 0.05
+  },
+  "results": {
+    "M1": {
+      "n": 171,
+      "P@5": 0.16705653021442496,
+      "R@5": 0.03257381188997212,
+      "MRR": 0.2886939571150097,
+      "nDCG@5": 0.14879598596594495,
+      "Hit@5": 0.40350877192982454
+    },
+    "M2": {
+      "n": 171,
+      "P@5": 0.3345029239766082,
+      "R@5": 0.09004101639340399,
+      "MRR": 0.560916179337232,
+      "nDCG@5": 0.34281364299388817,
+      "Hit@5": 0.7953216374269005
+    },
+    "M3": {
+      "n": 171,
+      "P@5": 0.3216374269005848,
+      "R@5": 0.08887529342432156,
+      "MRR": 0.5406432748538011,
+      "nDCG@5": 0.3287937527445775,
+      "Hit@5": 0.7894736842105263
+    },
+    "M4": {
+      "n": 171,
+      "P@5": 0.48888888888888893,
+      "R@5": 0.13864962244989068,
+      "MRR": 0.6961988304093567,
+      "nDCG@5": 0.5064546584462989,
+      "Hit@5": 0.8362573099415205
+    }
+  },
+  "significance": {
+    "M4_vs_M2": {
+      "mean_difference": 0.16364101545241072,
+      "p_value": 0.5006,
+      "n": 171,
+      "iterations": 10000
+    },
+    "M4_vs_M2_wilcoxon": {
+      "statistic": 7732.0,
+      "z": 7.831268862896091,
+      "p_value": 4.8297059372817716e-15,
+      "n": 131
+    },
+    "M4_vs_M3": {
+      "mean_difference": 0.17766090570172138,
+      "p_value": 0.5026,
+      "n": 171,
+      "iterations": 10000
+    }
+  },
+  "caveats": [
+    "Gold relevance labels are derived from the same draft annotations the context features use, so M4 is advantaged by construction.",
+    "These numbers measure internal consistency and are not expert-validated."
+  ]
+}
