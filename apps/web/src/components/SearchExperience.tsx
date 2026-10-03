@@ -90,23 +90,28 @@ export function SearchExperience() {
 
   return (
     <div className="space-y-8">
-      <section className="card">
-        <form onSubmit={search} className="space-y-4">
+      <section className="card relative overflow-hidden shadow-lg ring-1 ring-sand-200/60 transition-shadow hover:shadow-xl">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -right-24 -top-24 h-48 w-48 rounded-full bg-emerald-100/40 blur-2xl"
+        />
+        <form onSubmit={search} className="relative space-y-5">
           <div>
-            <label htmlFor="query" className="block font-medium text-sand-900">
+            <label htmlFor="query" className="block text-lg font-semibold text-sand-900">
               What is going on?
             </label>
-            <p className="mt-1 text-sm text-sand-600">
-              Describe your situation in your own words. Nothing you type is stored on a server.
+            <p className="mt-1 text-sm leading-relaxed text-sand-600 sm:text-base">
+              Describe your situation in your own words. Nothing you type is stored on a
+              server — all processing is local-first.
             </p>
             <textarea
               id="query"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              rows={3}
+              rows={4}
               maxLength={2000}
-              placeholder="For example: I am worried about my exam results next week"
-              className="mt-2 w-full rounded-xl border border-sand-300 p-3 focus:border-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-200"
+              placeholder="For example: I am worried about my exam results next week and feeling overwhelmed"
+              className="mt-3 w-full resize-y rounded-2xl border border-sand-300 bg-white/95 p-4 text-base shadow-sm transition focus:border-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-200/80"
             />
           </div>
 
